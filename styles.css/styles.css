@@ -1,0 +1,151 @@
+body {font-family: Roboto, sans-serif; color: var(--logo-span);}
+
+:root {
+    --logo-span: #000000;
+    --buttons-links: #2196F3;
+    --title-color: #212121;
+    --txt-about: #757575;
+    --adress-color: #FFFFFF;
+    --buttons-bg: #F5F4FA;
+    --background-color: #2F303A;
+    --link-active: red;
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {color: var(--buttons-links)}
+.site-nav a:active {color: var(--link-active)}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: var(--buttons-links)
+}
+
+.button-list button:hover,
+.button-list button:focus {
+    background-color: var(--buttons-links);
+    color: var(--adress-color) 
+}
+
+
+.order-button {background-color: var(--buttons-links)}
+
+.order-button,
+.button-list button {cursor: pointer;}
+
+.logo {
+font-family: Raleway, sans-serif;
+color:var(--logo-span);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;}
+.logo span {color:var(--buttons-links) }
+
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    color: var(--adress-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;}
+.logo-footer span {color:var(--buttons-links) ;}
+
+.site-nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    }
+
+.auth-nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--txt-about);}
+
+.main-title h1 {
+     font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--adress-color);}
+.main-title button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--adress-color);
+}
+.main-title
+{
+    background: #000;}
+
+.about-us h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--title-color);
+}
+.about-us p { 
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--txt-about);
+}
+
+.examples h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color:var(--title-color);
+}
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--title-color);
+}
+.our-team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--title-color);
+}
+.our-team p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--txt-about);
+}
+
+.footer {background: #000;}
+.adress-list a {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--adress-color);
+}
+.mail-tell {
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--adress-color);
+    opacity: 60%;
+}
+
+.button-list button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--title-color);
+}
+.our-projects h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-color);
+}
+.our-projects p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--txt-about);
+}
+.adress-list a:hover,
+.adress-list a:focus {color: var(--buttons-links);}
+
+.main-title,
+.footer {background-color: var(--background-color);}
