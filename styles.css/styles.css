@@ -20,7 +20,9 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     --adress-color: #FFFFFF;
     --buttons-bg: #F5F4FA;
     --background-color: #2F303A;
-    --link-active: red;}
+    --link-active: red;
+    --border-color: #EEEEEE;
+    --border-header-color: #ECECEC;}
 
 .container {
     width: 1200px; 
@@ -30,7 +32,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     padding-right: 15px;}
 
 .page-header {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--border-header-color);
     padding-top: 24px;
     padding-bottom: 25px;}
 
@@ -74,7 +76,7 @@ margin-right: 93px;}
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    color:#212121}
+    color:var(--title-color)}
 
 .auth-nav a:hover,
 .auth-nav a:focus {
@@ -273,11 +275,13 @@ margin-right: 93px;}
 .project-list:nth-child(n+7) {margin-bottom: 94px;}
 .project-list:not(:nth-child(3n)) {margin-right: 30px;}
 
-.project-list {
-    border-bottom: 1px solid #EEEEEE;}
+.project-list-border {
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);}
 
 .project-name {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
     margin-left: 24px;
     margin-right: 24px;}
