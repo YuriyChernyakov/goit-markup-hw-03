@@ -30,6 +30,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     padding-right: 15px;}
 
 .page-header {
+    border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;}
 
@@ -271,6 +272,9 @@ margin-right: 93px;}
 .project-list:not(:nth-child(n+7)) {margin-bottom: 30px;}
 .project-list:nth-child(n+7) {margin-bottom: 94px;}
 .project-list:not(:nth-child(3n)) {margin-right: 30px;}
+
+.project-list {
+    border-bottom: 1px solid #EEEEEE;}
 
 .project-name {
     margin-top: 20px;
