@@ -39,18 +39,20 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 
 .navigation {
     display: flex;
-    align-items: center}
+    align-items: center;}
 
 .site-nav {
-    display: flex;
     align-items: center;
-    column-gap: 50px}
+    display: flex;}
+
+.site-nav-link:not(:last-child) {margin-right: 50px;}
 
 .auth-nav {
     display: flex;
     align-items: center;
-    column-gap: 50px;
     margin-left: 344px;}
+
+.auth-nav-link:not(:last-child) {margin-right: 50px;}
 
 .logo {
 font-family: Raleway, sans-serif;
@@ -71,8 +73,8 @@ margin-right: 93px;}
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    color:#212121
-    }
+    color:#212121}
+
 .auth-nav a:hover,
 .auth-nav a:focus {
     color: var(--buttons-links)}
@@ -88,16 +90,14 @@ margin-right: 93px;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 30px;
-    }
+    text-align: center;}
+
+.title-text {margin-bottom: 30px;}
 
 .main-title {
     background: #000;
     padding-bottom: 200px;
-    padding-top: 200px;
-    }
-
+    padding-top: 200px;}
 
 .main-title button {
     font-weight: 700;
@@ -106,7 +106,7 @@ margin-right: 93px;}
     color: var(--adress-color);}
 
 .main-title h1 {
-     font-weight: 900;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     color: var(--adress-color);}
@@ -115,39 +115,40 @@ margin-right: 93px;}
 
 .about-list {
     display: flex;
-    column-gap: 30px;
     margin-top: 94px;
-    margin-bottom: 94px;
-}
+    margin-bottom: 94px;}
 
 .about-us-title {
     display: flex;
-    flex-direction: column;
-    gap: 10px;}
+    flex-direction: column;}
+
+.about-us-title:not(:last-child) {margin-right: 30px;}
+
+.about-us-title h2 {margin-bottom: 10px;}
 
 .about-us h2 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
-    color: var(--title-color);  
-}
+    color: var(--title-color);}
 
 .about-us p { 
     font-size: 14px;
     line-height: 1.8;
-    color: var(--txt-about);
-}
+    color: var(--txt-about);}
 
-.what-we-do {
+.examples-title {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap:50px;
     margin-bottom: 94px;}
 
+.what-we-do {margin-bottom: 50px;}
+
 .examples-list {
-    display: flex;
-    column-gap: 30px;}
+    display: flex;}
+
+.examples-img:not(:last-child) {margin-right: 30px;}
 
 .examples h2 {
     font-weight: 700;
@@ -160,13 +161,21 @@ margin-right: 93px;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 94px;
-    gap: 50px;}
+    padding-top: 94px;}
+
+.our-team-item {margin-bottom: 50px;}
 
 .team-list {
     display: flex;
-    gap: 30px;
-    margin-bottom: 94px;}
+    text-align: center;}
+
+.team-people:not(:last-child) {margin-right: 30px;}
+
+.team-name {
+    margin-top: 30px;
+    margin-bottom: 10px;}
+
+.position {margin-bottom: 124px;}
 
 .our-team h2 {
     font-weight: 700;
@@ -190,12 +199,19 @@ margin-right: 93px;}
 
 .footer {background: #000;}
 
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;}
+
 .logo-footer {
     font-family: Raleway, sans-serif;
     color: var(--adress-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;}
+    line-height: 1.2;
+    margin-bottom: 20px;}
     
 .logo-footer span {color:var(--buttons-links) ;}
 
@@ -208,6 +224,8 @@ margin-right: 93px;}
 
 .adress-list a:hover,
 .adress-list a:focus {color: var(--buttons-links);}
+
+.contacts:not(:last-child) {margin-bottom: 9px;}
 
 .mail-tell {
     font-size: 14px;
@@ -230,7 +248,40 @@ margin-right: 93px;}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    color: var(--title-color);
+    color: var(--title-color);}
+
+.button-list-title {
+    display: none;}
+
+.buttons-about {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;}
+
+.buttons-about button {border: none;}
+
+.buttons-item:not(:last-child) {margin-right: 8px;}
+
+.our-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+.project-list:not(:nth-child(n+7)) {margin-bottom: 30px;}
+.project-list:nth-child(n+7) {margin-bottom: 94px;}
+.project-list:not(:nth-child(3n)) {margin-right: 30px;}
+
+.project-name {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    margin-right: 24px;}
+
+.project-description {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
 }
 
 .our-projects h2 {
