@@ -52,8 +52,8 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     line-height: 1.2;
 
     margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 25px;}
+    padding-top: 24px;
+    padding-bottom: 25px;}
 
 .logo span {color:var(--buttons-links) }
 
@@ -91,6 +91,11 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     line-height: 1.2;
     color: var(--txt-about);}
 
+.main-title {
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
 .title-main {
     display: flex;
     flex-direction: column;
@@ -99,7 +104,6 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 
 .main-title h1 {
     width: 696px;
-    margin-top: 200px;
     margin-bottom: 30px;
     text-transform: uppercase;}
 
@@ -113,8 +117,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
-    border-color: var(--buttons-links);
-    margin-bottom: 200px;}
+    border-color: var(--buttons-links);}
 
 .main-title h1 {
     font-weight: 900;
@@ -128,8 +131,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 .about-list {
     display: flex;}
 
-.about-list li {
-    margin-top: 94px;}
+.about-us {padding-top: 94px;}
 
 .about-list li h2 {margin-bottom: 10px;}
 
@@ -148,15 +150,18 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     color: var(--txt-about);
     letter-spacing: 0.02em;}
 
+.examples {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .examples-title {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 94px;}
+    text-align: center;}
 
 .examples-title ul{
-    display: flex;
-    margin-top: 50px;}
+    display: flex;}
 
 .examples-title ul li:not(:last-child) {margin-right: 30px;}
 
@@ -164,10 +169,12 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    color:var(--title-color);}
+    color:var(--title-color);
+    margin-bottom: 50px;}
 
 .our-team {background-color: var(--buttons-bg);
-    margin-top: 94px;}
+    padding-top: 94px;
+    padding-bottom: 94px;}
 
 .our-team-div {
     display: flex;
@@ -178,7 +185,6 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-size: 36px;
     line-height: 1.2;
     color: var(--title-color);
-    margin-top: 94px;
     margin-bottom: 50px;
     text-align: center;}
 
@@ -190,7 +196,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-size: 16px;
     line-height: 1.2;
     color: var(--title-color);
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
     text-align: center;}
 
@@ -198,14 +204,13 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-size: 16px;
     line-height: 1.2;
     color: var(--txt-about);
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     text-align: center;}
 
 .our-team-div li:not(:last-child) {
     margin-right: 30px;}
 
 .our-team-div li {
-    margin-bottom: 94px;
     background-color: var(--adress-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;}
@@ -255,6 +260,11 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     color: var(--adress-color) 
 }
 
+.button-list {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .button-list button {
     font-family: 'Roboto';
     font-weight: 500;
@@ -275,7 +285,6 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 
 .buttons-dscr {
     display: flex;
-    padding-top: 94px;
     justify-content: center;
     margin-bottom: 50px;}
 
@@ -299,8 +308,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 
 .our-projects {
     display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 94px;}  
+    flex-wrap: wrap;}  
 
 .our-projects li:not(:nth-child(3n)) {
     margin-right: 30px;}
@@ -312,6 +320,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    margin-bottom: 4px;
     color: var(--title-color);}
 
 .our-projects p {
